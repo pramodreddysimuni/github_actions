@@ -1,0 +1,10 @@
+name: First Work Flow
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-slim
+    steps:
+      - name: print hellow
+        run: echo "hellow"
+      - name: print goodbye
+        run: echo "goodbye"
